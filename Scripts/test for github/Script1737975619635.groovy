@@ -21,21 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://talent.nexta.id/')
 
-WebUI.click(findTestObject('Object Repository/Page_Smarthub App/a_Sign In'))
+WebUI.click(findTestObject('Object Repository/View Category/Page_Smarthub App/a_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Smarthub App/input_Login with EmailPassword_email'), 'zbrooks@example.com')
+WebUI.setText(findTestObject('Object Repository/View Category/Page_Smarthub App/input_Login with EmailPassword_email'), 
+    'tallen@example.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Smarthub App/input_Login with EmailPassword_password'), '8SQVv/p9jVTHLrggi8kCzw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/View Category/Page_Smarthub App/input_Login with EmailPassword_password'), 
+    '8SQVv/p9jVTHLrggi8kCzw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Smarthub App/button_Login with DB'))
+WebUI.sendKeys(findTestObject('Object Repository/View Category/Page_Smarthub App/input_Login with EmailPassword_password'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard  Insights/button_Toggle Sidebar'))
+WebUI.click(findTestObject('Object Repository/View Category/Page_Dashboard  Insights/button_Toggle Sidebar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard  Insights/a_Employee'))
+WebUI.click(findTestObject('Object Repository/View Category/Page_Dashboard  Insights/div_Masterdata'))
 
-WebUI.click(findTestObject('Object Repository/Page_Administration  Employee/span_Z'))
+WebUI.click(findTestObject('Object Repository/View Category/Page_Dashboard  Insights/a_Category'))
 
-WebUI.click(findTestObject('Object Repository/Page_Administration  Employee/button_Sign Out'))
+WebUI.click(findTestObject('Object Repository/View Category/Page_Masterdata  Category/html_katalonfont-familymonospacefont-size13_0fa88e'))
+
+WebUI.click(findTestObject('Object Repository/View Category/Page_Masterdata  Category/div_Get Info'))
 
 WebUI.closeBrowser()
 
