@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>44c9306b-6594-47c6-8600-98422c9d0d16</webElementGuid>
+      <webElementGuid>736c4779-5794-4075-a23d-d868d43c7aa4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm</value>
-      <webElementGuid>fc670284-6913-4236-b02e-9026ddd13e5d</webElementGuid>
+      <webElementGuid>60a14a32-bb5d-4688-904b-f355019f32c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Password</value>
-      <webElementGuid>d497e034-b476-4ea8-9cc2-5721453ce789</webElementGuid>
+      <webElementGuid>e416cb39-dca6-452d-8957-2f909dcf3d89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>0d2126b5-7a1f-4e5f-92b9-dc938c4cfe64</webElementGuid>
+      <webElementGuid>8b526890-82b1-45f5-b18e-66385e35b499</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,15 +55,15 @@
       <name>name</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>07906c91-2647-4f4a-a274-5a42fd1d6260</webElementGuid>
+      <webElementGuid>087a4ffe-4c5b-45c3-a641-4ddd4c35636b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;__className_d65c78&quot;]/div[@class=&quot;flex flex-col items-center justify-center min-h-screen bg-muted&quot;]/div[@class=&quot;rounded-xl border bg-card/80 dark:bg-card/30 text-card-foreground shadow w-full max-w-md&quot;]/div[@class=&quot;p-6 pt-0&quot;]/div[@class=&quot;space-y-4&quot;]/div[1]/form[@class=&quot;space-y-3&quot;]/input[@class=&quot;flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm&quot;]</value>
-      <webElementGuid>bcd15dcd-e00e-4794-aac9-78a5f4948c7b</webElementGuid>
+      <value>/html[@class=&quot;light&quot;]/body[@class=&quot;__className_d65c78&quot;]/div[@class=&quot;flex flex-col items-center justify-center min-h-screen bg-muted&quot;]/div[@class=&quot;rounded-xl border bg-card/80 dark:bg-card/30 text-card-foreground shadow w-full max-w-md&quot;]/div[@class=&quot;p-6 pt-0&quot;]/div[@class=&quot;space-y-4&quot;]/div[1]/form[@class=&quot;space-y-3&quot;]/input[@class=&quot;flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm&quot;]</value>
+      <webElementGuid>42521df0-a50c-4b1c-81c0-e53d5d060fdc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='password']</value>
-      <webElementGuid>8092f677-4317-4503-8941-a9788ea30e38</webElementGuid>
+      <webElementGuid>b4deda59-2f5c-48d9-b17b-5b4586440447</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,15 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[2]</value>
-      <webElementGuid>59111958-241a-4197-b5f4-5c3f98d6e805</webElementGuid>
+      <webElementGuid>6a589828-0735-47d3-9b6d-9112a31d0fb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'password' and @placeholder = 'Password' and @name = 'password']</value>
+      <webElementGuid>d4478e2a-ba5e-488b-a8b4-fc78b1dcc5f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

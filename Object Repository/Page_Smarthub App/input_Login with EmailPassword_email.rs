@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>84be126b-37a8-4aef-bbc0-53e2cd999a21</webElementGuid>
+      <webElementGuid>87ae455e-ec91-4d89-92bd-b013a79f8cd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm</value>
-      <webElementGuid>f56723d4-4e27-4f1e-9f2d-a429a94dcec6</webElementGuid>
+      <webElementGuid>667d3d63-3a69-4433-9d67-c47ca90929d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Email</value>
-      <webElementGuid>d7bbf2b5-d355-47f2-8cb9-cd13b6663eb5</webElementGuid>
+      <webElementGuid>85c81e78-4582-40e6-bf19-399580f3fe55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>c1da9029-86a7-4986-8cfb-c77b912dbe60</webElementGuid>
+      <webElementGuid>ec739b06-13e0-4c05-b065-89fe77367c51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,15 +55,15 @@
       <name>name</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>356e95a7-c11c-47ed-aa54-4b1ca27dcddc</webElementGuid>
+      <webElementGuid>78c98fd6-2048-4439-b25e-fb6d99f2f9c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;__className_d65c78&quot;]/div[@class=&quot;flex flex-col items-center justify-center min-h-screen bg-muted&quot;]/div[@class=&quot;rounded-xl border bg-card/80 dark:bg-card/30 text-card-foreground shadow w-full max-w-md&quot;]/div[@class=&quot;p-6 pt-0&quot;]/div[@class=&quot;space-y-4&quot;]/div[1]/form[@class=&quot;space-y-3&quot;]/input[@class=&quot;flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm&quot;]</value>
-      <webElementGuid>354f7c86-2b21-4b29-9eaf-c24247d0b71c</webElementGuid>
+      <value>/html[@class=&quot;light&quot;]/body[@class=&quot;__className_d65c78&quot;]/div[@class=&quot;flex flex-col items-center justify-center min-h-screen bg-muted&quot;]/div[@class=&quot;rounded-xl border bg-card/80 dark:bg-card/30 text-card-foreground shadow w-full max-w-md&quot;]/div[@class=&quot;p-6 pt-0&quot;]/div[@class=&quot;space-y-4&quot;]/div[1]/form[@class=&quot;space-y-3&quot;]/input[@class=&quot;flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm&quot;]</value>
+      <webElementGuid>c87af3ed-9946-4533-9042-39041d09e963</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='email']</value>
-      <webElementGuid>dc59157a-d234-40e2-a7cd-5b201e9635f7</webElementGuid>
+      <webElementGuid>1c5e4eb8-be10-438a-b58f-d888c8d8f416</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,15 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>9ea68449-fc87-4077-b656-23b33d0c1737</webElementGuid>
+      <webElementGuid>b63f2691-17bd-42b2-8f3b-47e854399cbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'email' and @placeholder = 'Email' and @name = 'email']</value>
+      <webElementGuid>53e1b950-d50d-4753-bd74-f22f88ff8069</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
